@@ -47,23 +47,22 @@
         </repository>
     </repositories>
 
-    <pluginRepositories>
-        <pluginRepository>
-            <id>vaadin-snapshots</id>
-            <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
-<pluginRepositories>
-   <pluginRepository> 
-    <id>maven2</id> 
-    <url>https://repo.maven.apache.org/maven2/</url> 
-  </pluginRepository> 
+   <pluginRepositories>
+    <pluginRepository>
+        <id>vaadin-snapshots</id>
+        <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </pluginRepository>
+
+    <pluginRepository>
+        <id>maven-central</id>
+        <url>https://repo.maven.apache.org/maven2/</url>
+    </pluginRepository>
 </pluginRepositories>
 
     <dependencies>
